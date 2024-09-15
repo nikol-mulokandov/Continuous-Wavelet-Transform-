@@ -1,2 +1,3 @@
-#Abstract
+Abstract
+
 This project implements the analysis of a cough signal using Continuous Wavelet Transform (CWT), based on the methodology outlined in the article "Application of Wavelet Transform in Analysis of Cough Sound Records". The CWT enables simultaneous time and frequency domain representation, making it well-suited for signals with rapid temporal changes, like a cough. We implemented the approach ourselves, applying the CWT using the Mexican Hat, Haar, and Morlet mother wavelets. After verifying the algorithm with a reference signal, we analyzed the cough signal. The scalograms are presented in time vs. scale, using different resolutions (1:16, 1:31, 1:61, and 1:128) to provide various levels of detail in time and frequency representation.
